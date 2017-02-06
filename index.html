@@ -3,11 +3,886 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" href="css/common.css" /><!--引用css的公共样式-->
+		<link rel="stylesheet" href="css/index.css" /><!--首页的css-->
+		<script type="text/javascript" src="libs/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script><!--引用公共的js-->
+		<script type="text/javascript" src="js/index.js" ></script><!--引用index的脚本-->
+		<script type="text/javascript" src="js/login.js" ></script>
 	</head>
 	<body>
-		<div class="box">
+	<!--头部的html-->
+		<div class="header">
+			<div class="headercon">
+				<div class="lefthead">
+					<ul>
+						<li class="lhead1"><a href="login.html">登录/注册</a></li>
+						<li class="lhead2"><a href="#">购物袋<span>0</span>件<p class="lhead22">购物袋暂时没有商品!</p></a></li>
+						
+						<li class="lhead3"><a href="#">我的走秀</a>
+							<div class="myxiu">
+								<a href="#">我的订单</a>
+								<a href="#">自助退货</a>
+								<a href="#">我的收藏</a>
+								<a href="">帮助中心</a>
+								<a href="#">全部吐槽</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+		<!--头部左边end-->
+				<div id="logo"><a href="#"><img src="img/logo.jpg"/></a></div>
+		<!--logo end-->
+				<div class="righthead">
+					<input class="tex" type="text" name="" id="" value="请输入Loake试试" />
+					<input class="sub" type="submit" name="" id="" value="" />
+			<!--搜索框-->
+					<div class="texkuang"></div>
+				</div>
+		<!--头部右边end-->
 			
+				
+			</div>
+			<div class="mheadcon">
+				<div class="mhead">
+					<ul>
+						<li class="esp"><a href="">首页</a></li>
+						<li><a href="">新品</a></li>
+					 	<li><a href="">男士</a></li>
+						<li><a href="">女士</a></li>
+						<li><a href="">品牌</a></li>
+						<li class="redes"><a href="">发现</a></li>
+						<li><a href="">专题</a></li>
+						<li class="es"><a href="">手机走秀</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		
+	<!--头部结束-->
+	<!--	nav的html-->
+		<div class="navcon">
+			<ul class="title">
+				<li class="bag"><a href="bagslist.html" target="_blank">包袋</a>
+					<div class="bags">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">服装</a>
+					<div class="bags">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">鞋靴</a>
+					<div class="bags">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				
+				</li>
+				<li class="bag"><a href="#">腕表</a>
+					<div class="bags esbags">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">配饰</a>
+					<div class="bags esbags1">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">妆品</a>
+					<div class="bags esbags2">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">生活</a>
+					<div class="bags esbags3">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">婴童</a>
+					<div class="bags esbags4">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+				<li class="bag"><a href="#">豪车</a>
+					<div class="bags esbags5">
+						<div class="lbags">
+							<dl>
+								<dt><a href="#"><p class="eslbags">频道精选</p></a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>女士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a class="essame" href="#">手提包</a></dt>						
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>男士包袋</p></h3><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3">
+								<dt><a href="#"><h3>功能包袋</p></h3><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a>|<a href="#">手提包</a><br/><a href="#">手提包</a>|<a href="#">手提包</a>|<a class="essame" href="#">手提包/双肩包</a>|<a href="#">手提包</a></dt>
+							</dl>
+							<dl class="same3 ssame3">
+								<dt><a href="#"><h3>旅行箱包</h3></a><a href="#">手提包</a>|<a class="essame" href="#">手提包</a>|<a href="#">手提包</a></dt>
+							</dl>
+						</div>
+						<div class="rbags">
+							<p>热门品牌</p>
+							<div class="rbagsl">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+							<div class="rbagsr">
+								<ul>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Rimowa</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									<li><a href="#">Michael</a></li>
+									
+								</ul>
+							</div>
+						</div>
+							
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	<!--nav end-->
+		<div class="banner"><a href="#"><img class="img1" src="img/ban.jpg"/><img src="img/ban1.jpg"/><img src="img/ban2.jpg"/></a></div>
+	<!--banner end-->
+		<div class="shortcut">
+			<a class="espshort" href="#"><img src="img/short1.png"/></a>
+			<a href="#"><img src="img/short2.png"/></a>
+			<a href="#"><img src="img/short3.png"/></a>
+			<a class="esshort" href="#"><img src="img/short4.png"/></a>
+		</div>
+	<!--shortcut end-->
+		<div class="jianhuo">
+			<h3><img src="img/goods_t.jpg"/></h3>
+			<ul>
+				<li><a href="#"><img src="img/jian1.jpg"/></a></li>
+				<li><a href="#"><img src="img/jian.jpg"/></a></li>
+				<li><a href="#"><img src="img/jian6.jpg"/></a></li>
+				<li><a href="#"><img src="img/jian3.jpg"/></a></li>
+				<li><a href="#"><img src="img/jian4.jpg"/></a></li>
+				<li><a href="#"><img src="img/jian5.jpg"/></a></li>
+			</ul>
+			<ul>
+				<li><a href="#"><img src="img/jianh1.jpg"/></a></li>
+				<li><a href="#"><img src="img/jianh2.jpg"/></a></li>
+				<li><a href="#"><img src="img/jianh3.jpg"/></a></li>
+				<li><a href="#"><img src="img/jianh4.jpg"/></a></li>
+				<li><a href="#"><img src="img/jianh5.jpg"/></a></li>
+				<li><a href="#"><img src="img/jianh6.jpg"/></a></li>
+			</ul>
+		</div>
+	<!--尖货推荐  end-->
+		<div class="tuijian">
+			<h3><img src="img/topic_t.jpg"/></h3>
+			<ul>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1119beats_06.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1119beats_06.png"/></p>
+				</li>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1129beats_01.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1129beats_01.png"/></p>
+				</li>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1129beats_02.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1129beats_02.png"/></p>
+				</li>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1129beats_03.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1129beats_03.png"/></p>
+				</li>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1129beats_04.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1129beats_04.png"/></p>
+				</li>
+				<li>
+					<a href="#"><img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1129beats_05.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1129beats_05.png"/></p>
+				</li>
+			</ul>
+			<h3 class="tuibiao">
+				<a href="#"><img src="http://images.xiu.com/edm/hd_home_160308/topic_m.jpg"/></a>
+			</h3>
+		</div>
+<!--推荐精品结束-->
+		<div class="jingmai">
+			<h3><img src="http://images.xiu.com/edm/hd_home_160308/beat_t.jpg"/></h3>
+			<ul>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_01.jpg"/></a>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_01.png"/></p>
+				</li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_02.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_02.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_03.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_03.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_04.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_04.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_05.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_05.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_06.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_06.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_07.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_07.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_08.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_08.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_09.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_09.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_10.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_10.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_11.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_11.png"/></p>
+				</a></li>
+				<li><a href="#">
+					<img class="tuijianimg" src="http://images.xiu.com/edm/hd_home_161006/1013sales_12.jpg"/>
+					<p><img src="http://images.xiu.com/edm/hd_home_161006/1013sales_12.png"/></p>
+				</a></li>
+			</ul>
+			<h3 class="tuibiao">
+				<a href="#"><img src="http://images.xiu.com/edm/hd_home_160308/beat_m.jpg"/></a>
+			</h3>
+		</div>
+<!--精选卖场结束-->
+		<div class="richcar">
+			<a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/1129auto.jpg"/></a>
+		</div>
+<!--豪车部分结束-->
+		<div class="findgood">
+			<h3>
+				<img src="http://images.xiu.com/edm/hd_home_160308/found_t.jpg"/>
+			</h3>
+			<ul>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_001.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_002.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_003.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_004.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_005.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_006.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_007.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_008.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_009.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_010.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_011.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_012.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_013.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_014.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_015.jpg"/></a>
+					<p></p>
+				</li>
+				<li><a href="#"><img src="http://images.xiu.com/edm/hd_home_161006/20161201_016.jpg"/></a>
+					<p></p>
+				</li>
+			</ul>
+			<h3 class="homebox">
+				<a href="#"><img src="http://images.xiu.com/edm/hd_home_160308/fonud_m.jpg"/></a>
+			</h3>
+		</div>
+<!--发现好货结束，，在这里的时候，貌似划过的时候li会有一个边框显示，用hover的时候会使得li下面的掉下去，是因为div的大小不仅仅是我们设置的宽高，是content+border+padding+margin;
+	方法一：
+所以最好选择在li里面写一个空的块元素标签，然后设置他相对于li这个父元素的定位，设置mouseenter的时候显示
+	方法二:
+直接给li设置一个边框，颜色跟背景色是一样的，当鼠标滑过的时候，改变border的颜色就好了。
+-->
+<!--发现好货结束-->
+		<div class="footercon">
+			<div class="topfooter">
+				<div class="topfoot">
+					<div class="cs">
+						<a class="csa" href="#"></a>
+						<p class="csp"></p>
+						<a class="csa1" href="#"></a>
+					</div>
+					<dl>
+						<dt>新手入门</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员等级与升级</a></dd>
+						<dd><a href="#">我的走秀</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+						<dd><a href="#">手机走秀</a></dd>
+					</dl>
+					<dl>
+						<dt>配送方式</dt>
+						<dd><a href="#">海外配送说明</a></dd>
+						<dd><a href="#">配送运费</a></dd>
+						<dd><a href="#">配送查询</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">在线支付</a></dd>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">银行汇款</a></dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">退换货自助申请</a></dd>
+						<dd><a href="#">退换货政策</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">CEO邮箱</a></dd>
+					</dl>
+					<dl class="wechat">
+						<dt>走进微信客服</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</div>
+	<!--尾部上半部分结束-->
+			<div class="footlink">
+				<ul>
+					<li><a href="#">关于走秀</a>|</li>
+					<li><a href="#">About Us</a>|</li>
+					<li><a href="#">媒体报道</a>|</li>
+					<li><a href="#">品牌招商</a>|</li>
+					<li><a href="#">加入走秀</a>|</li>
+					<li><a href="#">网站地图</a>|</li>
+					<li><a href="#">练习我们</a>|</li>
+					<li><a href="#">品牌大全</a>|</li>
+					<li><a href="#">邮件订阅</a>|</li>
+					<li><a href="#">品牌专题</a>|</li>
+					<li><a href="#">WAP站点</a></li>
+				</ul>
+			</div>
+			<div class="footsea">
+				<a class="footsea1" href="#"></a>
+				<a class="footsea2" href="#"></a>
+				<a class="footsea3" href="#"></a>
+			</div>
+			<p class="copyright">Copyright @ 2008-2016<a href="#">Xiu.com</a>深圳走秀网络科技有限公司 版权所有 .<a href="#">粤ICP备07502993号</a></p>
+			<div class="lastfoot">
+				<a href="#"><img src="http://www.xiustatic.com/static/img/footer/c_01.jpg"/></a>
+				<a href="#"><img src="http://www.xiustatic.com/static/img/footer/c_11.jpg"/></a>
+				<a href="#"><img src="http://www.xiustatic.com/static/img/footer/c_04.jpg"/></a>
+				<a href="#"><img src="http://www.xiustatic.com/static/img/footer/c_08.jpg"/></a>
+				<a href="#"><img src="http://www.xiustatic.com/static/img/footer/c_09.jpg"/></a>
+			</div>
+		</div>
 	</body>
 </html>

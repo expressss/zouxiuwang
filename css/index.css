@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+img { border: 0px; }
+
+/*重置样式end*/
+.shortcut { width: 1200px; height: 78px; margin: 0 auto; padding-top: 18px; }
+
+.shortcut a { width: 240px; height: 86px; display: block; float: left; margin-right: 64px; position: relative; }
+
+.shortcut a img { position: absolute; left: 0; }
+
+.shortcut .esshort { margin-right: 0; }
+
+.shortcut .espshort { margin-left: 40px; }
+
+/*shortcut end*/
+.banner { position: relative; }
+
+.banner img { position: absolute; top: 0; left: 0; }
+
+.banner .img1 { z-index: 1; }
+
+.jianhuo { width: 1200px; height: 1300px; margin: 0 auto; margin-top: 30px; margin-bottom: 15px; }
+
+.jianhuo h3 { width: 1200px; height: 60px; text-align: center; }
+
+.jianhuo ul { width: 1200px; height: 600px; margin-bottom: 30px; }
+
+.jianhuo ul li { float: left; width: 400px; height: 300px; }
+
+.jianhuo ul li a { width: 400px; height: 300px; display: block; }
+
+/*尖货结束*/
+.tuijian { width: 1200px; height: 1135px; margin: 0 auto; margin-bottom: 30px; }
+
+.tuijian h3 { width: 1200px; height: 60px; text-align: center; }
+
+.tuijian ul { width: 1200px; height: 1020px; }
+
+.tuijian ul li { width: 600px; height: 300px; float: left; position: relative; overflow: hidden; margin-bottom: 40px; }
+
+.tuijian ul li p { position: absolute; top: 100px; left: 100px; }
+
+.tuijian .tuibiao { width: 1200px; height: 55px; }
+
+.tuijian .tuibiao img { width: 158px; height: 35px; margin: 0 auto; position: relative; }
+
+/*推荐精品结束*/
+.jingmai { width: 1200px; height: 1475px; margin: 0 auto; }
+
+.jingmai h3 { width: 1200px; height: 60px; text-align: center; }
+
+.jingmai ul { width: 1200px; height: 1360px; }
+
+.jingmai ul li { width: 400px; height: 300px; float: left; position: relative; overflow: hidden; margin-bottom: 40px; }
+
+.jingmai li p { position: absolute; top: 213px; left: 0; }
+
+/*精选卖场结束*/
+.richcar { width: 1200px; height: 400px; margin: 0 auto; margin-bottom: 30px; }
+
+/*豪车部分结束*/
+.findgood { width: 1200px; height: 2175px; margin: 0 auto; }
+
+.findgood h3 { width: 1200px; height: 60px; text-align: center; }
+
+.findgood ul { width: 1217px; height: 2040px; margin-bottom: 20px; }
+
+.findgood ul li { width: 287px; height: 490px; float: left; position: relative; margin-bottom: 5px; margin: 0 15px 18px 0; border: 1px solid #fff; }
+
+.findgood ul li:hover { border: 1px solid #ccc; }
+
+.findgood .homebox { width: 1200px; height: 55px; margin-bottom: 20px; }
+
+/*方法二的设置.findgood ul li p{width: 287px;height: 490px;border: 2px solid #efefef;position: absolute;top:0;left: 0;display: none;}*/
+/*发现好货结束*/
+
+/*# sourceMappingURL=index.css.map */

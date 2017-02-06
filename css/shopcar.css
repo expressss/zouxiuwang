@@ -1,0 +1,59 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+body { font-size: 12px; }
+
+input:focus { outline: none; }
+
+img { border: 0px; }
+
+/*重置样式end*/
+.top { width: 950px; height: 77px; margin: 0 auto; background: url(../img/shopcarlogo.png) no-repeat 0 20px; border-bottom: 1px solid black; }
+
+.t-neirong { width: 600px; height: 55px; float: right; margin-top: 20px; }
+
+.t-neirong p { float: right; width: 550px; height: 25px; line-height: 25px; text-align: right; }
+
+.t-neirong p span { color: red; font-size: 16px; font-weight: 900; padding-right: 5px; line-height: 18px; }
+
+.t-neirong p a { color: black; }
+
+.t-neirong p a:hover { color: gold; }
+
+/*头部结束*/
+.buzhou { width: 950px; margin: auto; overflow: hidden; height: 40px; padding-top: 15px; }
+
+.buzhou ul { width: 950px; height: 33px; margin: auto; }
+
+.buzhou ul li { float: left; background: #e2e2e2; height: 24px; width: 316px; text-align: center; font-size: 14px; font-weight: bold; }
+
+.buzhou ul li:first-child { background: #82bf38; color: #fff; }
+
+.span1 { float: right; display: inline-block; height: 32px; width: 27px; overflow: hidden; position: relative; margin-top: -4px; background: url(../img/s_shop1.gif) no-repeat; background-position: 0 0; }
+
+.span2 { float: right; display: inline-block; height: 32px; width: 27px; overflow: hidden; position: relative; margin-top: -4px; background: url(../img/s_shop1.gif) no-repeat; background-position: -27px 0; }
+
+/*以上是步骤*/
+.shangpin { width: 950px; margin: auto; }
+
+.s-liebiao { margin-top: 20px; height: 90px; background: #f6f6f6; border: 1px solid #5b5b5b; }
+
+.s-liebiao img { width: 52px; margin: 17px 50px 7px 200px; float: left; }
+
+.s-liebiao h2 { margin-top: 25px; float: left; }
+
+.s-liebiao h2 a { color: #f00; }
+
+.s-shouchang { margin-top: 20px; padding-bottom: 10px; }
+
+.s-shouchang h2 { width: 171px; height: 27px; float: left; background: url(../img/s_shop1.gif) no-repeat 0 -289px; }
+
+.s-shouchang h3 { float: left; margin-left: 20px; padding-top: 5px; font-size: 12px; height: 27px; }
+
+.s-shouchang h3 a { color: #f00; }
+
+/*# sourceMappingURL=shopcar.css.map */

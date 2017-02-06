@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+body { font-size: 12px; }
+
+input:focus { outline: none; }
+
+img { border: 0px; }
+
+/*重置样式end*/
+.top { width: 1200px; height: 50px; margin: 0 auto; padding-top: 10px; }
+
+/*头部结束*/
+.loginmain { width: 1263px; height: 560px; margin: 10px auto; background: #ff0; border-top: 1px solid #ccc; padding-top: 140px; background: #f7f2ec url(../img/loginbbg.jpg) no-repeat center; position: relative; }
+
+.loginmain .yan { width: 420px; height: 560px; border: 1px solid #ccc; position: absolute; top: 74px; right: 30px; background: #fff; }
+
+.loginmain .yan .yan1 { width: 420px; height: 54px; background: #f7f7f9; line-height: 52px; }
+
+.loginmain .yan .yan1 li { float: left; width: 210px; text-align: center; }
+
+.loginmain .yan .yan1 .active { border-bottom: 2px solid #464646; }
+
+.loginmain .yan .yan1 .active1 a { color: #ccc; }
+
+.loginmain .yan .yan1 li a { color: #464646; font-weight: 900; font-size: 18px; }
+
+.loginmain .way { width: 302px; height: 199px; margin: 30px auto 0; }
+
+.loginmain .way .username, .loginmain .way .message { margin-top: 15px; position: relative; }
+
+.loginmain .way .username input, .loginmain .way .message input { width: 280px; height: 24px; line-height: 24px; padding: 5px 10px; color: #464646; border: 0; background: none; border: 1px solid #d8d8d8; }
+
+.loginmain .way .message input { width: 165px; }
+
+.loginmain .way .message a { display: inline-block; width: 100px; height: 34px; line-height: 34px; color: #464646; background: #f7f7f9; text-align: center; }
+
+.loginmain .way .username label, .loginmain .way .message label { color: #afafaf; padding: 0 3px; height: 20px; line-height: 20px; background: #fff; font-size: 12px; position: absolute; left: 8px; top: 9px; }
+
+.loginmain .way .weekauto { width: 302px; height: 20px; margin-top: 15px; position: relative; }
+
+.loginmain .way .weekauto input { width: 20px; height: 20px; border: 0; border: 1px solid #f00; vertical-align: middle; margin-right: 5px; }
+
+.way .weekauto p { width: 240px; color: #DE6907; padding: 3px; background: #FFFCD1; border: 1px solid orange; margin-top: 8px; display: none; }
+
+.way .weekauto span { position: absolute; right: 5px; line-height: 20px; top: 0; }
+
+.way .deng button { width: 300px; height: 40px; line-height: 40px; background: url(../img/loginde.png) no-repeat 0 -40px; margin-top: 10px; border: 0; }
+
+.way .erro { display: none; }
+
+.way .erro b { background: url(../img/loginde.png) no-repeat -200px 0; width: 12px; height: 12px; display: inline-block; }
+
+.way .erro i { font-style: normal; line-height: 12px; color: #d2041f; }
+
+.way .erro1 { display: none; }
+
+.way .erro1 b { background: url(../img/loginde.png) no-repeat -200px 0; width: 12px; height: 12px; display: inline-block; margin-top: 8px; }
+
+.way .erro1 i { font-style: normal; line-height: 12px; color: #d2041f; }
+
+.way .tixing { margin: 12px 0 -8px; color: #afafaf; position: relative; display: none; }
+
+.way .tixing input { width: 127px; height: 36px; margin: 15px 0; }
+
+.way .tixing label { background: #fff; color: #afafaf; padding: 0 3px; position: absolute; top: 40px; left: 8px; }
+
+.way .tixing span { font-weight: 900; font-size: 20px; width: 20px; height: 20px; background: green; display: inline-block; position: absolute; top: 40px; left: 100px; opacity: 0; }
+
+.way .tixing .cuo { font-weight: 900; font-size: 20px; width: 20px; height: 20px; background: red; display: inline-block; position: absolute; top: 40px; left: 100px; opacity: 0; }
+
+.tixing label i { font-style: normal; background: red; }
+
+.way .tixing .ma { width: 80px; height: 25px; display: inline-block; background: pink; text-align: center; line-height: 25px; font-size: 20px; }
+
+.way .tixing .ma img { width: 80px; height: 25px; }
+
+.loginmain .hezuo { width: 300px; height: 91px; margin: 140px auto; }
+
+.loginmain .hezuo p { height: 20px; line-height: 20px; margin: -15px 0 25px; border-bottom: 1px solid #e7e7e7; position: relative; }
+
+.loginmain .hezuo p span { position: absolute; left: 50%; top: 10px; margin: 0 0 0 -60px; background: #fff; width: 120px; height: 20px; line-height: 20px; text-align: center; display: inline-block; }
+
+.loginmain .hezuo ul li { width: 30px; height: 30px; margin: 0 15px 0; overflow: hidden; float: left; }
+
+.loginmain .hezuo ul li a { background: url(../img/loginde.png) no-repeat; width: 30px; height: 30px; display: inline-block; }
+
+.loginmain .hezuo ul li .qq { background-position: 0 0; }
+
+.loginmain .hezuo ul li .qq1 { background-position: -30px 0; }
+
+.loginmain .hezuo ul li .qq2 { background-position: -60px 0; }
+
+.loginmain .hezuo ul li .qq3 { background-position: -90px 0; }
+
+.loginmain .hezuo ul li .qq4 { background-position: -120px 0; }
+
+.loginmain .saoma { width: 85px; height: 25px; position: absolute; background: url(../img/loginde.png) no-repeat 0 -360px; display: inline-block; right: 55px; bottom: 12px; }
+
+.loginmain .erwei { width: 60px; height: 60px; right: 0; bottom: 0; background: url(../img/loginde.png) no-repeat 0 -400px; display: inline-block; position: absolute; }
+
+/*.loginmain .way .username .bianhua{top: -10px;}*/
+/*密码登录页面*/
+.loginmain .way1 { width: 302px; height: 199px; margin: 30px auto 0; display: none; }
+
+.way1 .erro b { background: url(../img/loginde.png) no-repeat -200px 0; width: 12px; height: 12px; display: inline-block; }
+
+.way1 .erro i { font-style: normal; line-height: 12px; color: #d2041f; }
+
+.loginmain .way1 .username, .loginmain .way1 .message { margin-top: 15px; position: relative; }
+
+.loginmain .way1 .username input, .loginmain .way1 .message input { width: 280px; height: 24px; line-height: 24px; padding: 5px 10px; color: #464646; border: 0; background: none; border: 1px solid #d8d8d8; }
+
+.loginmain .way1 .username label, .loginmain .way1 .message label { color: #afafaf; padding: 0 3px; height: 20px; line-height: 20px; background: #fff; font-size: 12px; position: absolute; left: 8px; top: 9px; }
+
+.loginmain .way1 .weekauto { width: 302px; height: 20px; margin-top: 15px; position: relative; }
+
+.loginmain .way1 .weekauto input { width: 20px; height: 20px; border: 0; border: 1px solid #f00; vertical-align: middle; margin-right: 5px; }
+
+.way1 .weekauto p { width: 240px; color: #DE6907; padding: 3px; background: #FFFCD1; border: 1px solid orange; margin-top: 8px; display: none; }
+
+.way1 .weekauto span { position: absolute; right: 55px; line-height: 20px; top: 0; }
+
+.way1 .weekauto b { position: absolute; right: 5px; line-height: 20px; top: 0; font-weight: 100; }
+
+.way1 .deng button { width: 300px; height: 40px; line-height: 40px; background: url(../img/loginde.png) no-repeat 0 -40px; margin-top: 10px; border: 0; }
+
+.way1 .erro { display: none; }
+
+.foot { width: 1200px; height: 100px; margin: 10px auto; }
+
+.topfoot { padding-top: 15px; margin-left: 325px; height: 33px; line-height: 33px; }
+
+.topfoot a { color: black; }
+
+.topfoot b { padding: 0 5px; color: #999; font-weight: 100; }
+
+.foot p { margin-left: 418px; color: #999; }
+
+.foot p a { color: #999; }
+
+.foot p a:hover { text-decoration: underline; }
+
+/*尾部结束*/
+
+/*# sourceMappingURL=login.css.map */

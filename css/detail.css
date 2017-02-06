@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+body { font-size: 12px; }
+
+input:focus { outline: none; }
+
+img { border: 0px; }
+
+/*重置样式end*/
+#tou { min-width: 1200px; background: #333; }
+
+#t-neirong { width: 1200px; margin: auto; height: 83px; padding: 10px 0 0; }
+
+/*上面是头部*/
+#nav { min-width: 1200px; height: 42px; background: #f7f7f7; border-bottom: 1px solid #fff; }
+
+#n-neirong { width: 1200px; margin: auto; position: relative; z-index: 4; text-align: center; }
+
+/*# sourceMappingURL=detail.css.map */
