@@ -81,25 +81,6 @@ $(function(){
 	})
 /*nav部分 end*/
 //吸顶效果
-//吸顶效果第一个是absoulute的吸顶，是相对于具有定为的父元素进行的。这个会有跳动的现象。
-	/*$(window).scroll(function(){
-	//第一个吸顶的东西
-		if($(window).scrollTop()>$(".lefthead").height()){
-				//把jq转换成js对象进行设置
-			$(".mheadcon")[0].style.top=$(window).scrollTop()+"px";
-		}else{
-			$(".mheadcon")[0].style.top=$(".lefthead").height()+11+"px";
-		}
-	//第二个吸顶的东西
-		if($(window).scrollTop()>$(".header").height()){
-				//把jq转换成js对象进行设置
-				
-			$(".navcon")[0].style.top=$(window).scrollTop()+$(".mhead").height()+"px";
-		}else{
-			$(".navcon")[0].style.top=$(".header").height()+12+"px";
-		}
-	})*/
-//第二个吸顶的用fixed做的，它的位置是固定的，不会出现跳动的现象。
 	$(window).scroll(function(){
 		if($(window).scrollTop()>$(".lefthead").height()){
 			$(".mheadcon")[0].style.top=0+"px";

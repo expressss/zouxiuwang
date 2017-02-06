@@ -15,6 +15,8 @@ img { border: 0px; }
 .top { width: 1200px; height: 50px; margin: 0 auto; padding-top: 10px; }
 
 /*头部结束*/
+.longincontent { background: #f7f2ec; }
+
 .loginmain { width: 1263px; height: 560px; margin: 10px auto; background: #ff0; border-top: 1px solid #ccc; padding-top: 140px; background: #f7f2ec url(../img/loginbbg.jpg) no-repeat center; position: relative; }
 
 .loginmain .yan { width: 420px; height: 560px; border: 1px solid #ccc; position: absolute; top: 74px; right: 30px; background: #fff; }
